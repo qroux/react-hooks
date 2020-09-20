@@ -3,6 +3,7 @@ import Accordion from "./components/Accordion";
 import Navbar from "./components/Navbar";
 import Search from "./components/Search";
 import Dropdown from "./components/Dropdown";
+import Translate from "./components/Translate";
 
 // ACCORDION
 // const items = [
@@ -36,7 +37,8 @@ export default () => {
     <div>
       <Navbar />
       <br />
-      <button onClick={() => setShowDropdown(!showDropdow)}>show</button>
+      <Translate />
+      {/* <button onClick={() => setShowDropdown(!showDropdow)}>show</button>
       <br />
       {showDropdow ? (
         <Dropdown
@@ -45,7 +47,7 @@ export default () => {
           onSelectedChange={setSelected}
           title="Select a color"
         />
-      ) : null}
+      ) : null} */}
 
       {/* <Search />
       <br />
