@@ -4,6 +4,7 @@ const items = [
   { title: "Home", path: "/" },
   { title: "Search", path: "/search" },
   { title: "Translate", path: "/translate" },
+  { title: "Dropdown", path: "/dropdown" },
 ];
 
 export default () => {
@@ -17,7 +18,7 @@ export default () => {
 
   return (
     <div>
-      <div className="ui three item menu">{renderItems}</div>
+      <div className="ui four item menu">{renderItems}</div>
     </div>
   );
 };
